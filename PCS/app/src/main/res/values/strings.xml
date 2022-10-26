@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SIP</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="e_mail">E-mail</string>
+    <string name="password">Password</string>
+    <string name="hint1">Welcome, and thanks for choosing our product! For starters, place your plant somewhere with good lightning and enough space, put the device near the plant and place the sensors adequately. Please make sure your device will have constant Internet connection. Add a small container and place the water pump inside it. Make sure to check at least once a week the water level of the container, and if necessary, refill when needed. Good luck in rasing your plants!</string>
+    <string name="hint2">Plant data are shown in the upper side of the screen, in the black table. They represent the environmental factors that are crucial for the plant. Make sure the values indicated by the sensors are always between the reccommended amount for your plant type. Do not use the sensors for other purposes than those provided.</string>
+    <string name="hint3">The watering interval is on the lower side of the screen, in a grey background. This represents the amount of hours elapsed between watering your plant. Change it accordingly to your requirements. This feature comes with a protection that does not water the plant again if the soil surrounding it is still wet. </string>
+    <string name="hint4">Light boost switch is located right below the watering interval, and it represents a new unique feature that helps your plant develop even faster. This uses the light measurement sensor to determine if the plant gets enough light. In case it does, it lights the UV Light module while the temperature is insufficient to help your plant trough daily photosynthesis. Only works between the hours of 06 to 20.</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a est leo. Donec cursus mi id odio imperdiet, quis congue nunc pharetra. Sed convallis interdum neque, et dapibus neque mollis bibendum. Donec facilisis, metus vitae convallis fermentum, turpis nisi vulputate neque, nec egestas dolor massa ac felis. Vestibulum at leo sodales, fermentum purus vitae, venenatis purus. Aenean hendrerit semper ipsum, sit amet scelerisque ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; In hac habitasse platea dictumst. Vivamus sagittis nunc libero, a suscipit urna rhoncus eu.</string>
+    <string-array name="interval">
+        <item>8 hours</item>
+        <item>12 hours</item>
+        <item>24 hours</item>
+    </string-array>
+</resources>

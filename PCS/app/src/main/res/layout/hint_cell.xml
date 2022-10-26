@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/cell_background"
+    android:layout_marginTop="10dp">
+
+    <TextView
+        android:id="@+id/hintTitle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center_vertical"
+        android:paddingStart="20dp"
+        android:text="Hint Title"
+        android:textAlignment="gravity"
+        android:textSize="25sp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/drop_down"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <TextView android:id="@+id/hintText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="gravity"
+        android:gravity="center_vertical"
+        android:textSize="15sp"
+        android:layout_marginEnd="50dp"
+        app:layout_constraintTop_toBottomOf="@id/hintTitle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:paddingStart="20dp"
+        android:fontFamily="sans-serif-black"
+        android:paddingBottom="20dp"
+        android:visibility="gone"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
